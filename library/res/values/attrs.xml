@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StickyViewPager">
+
+        <!-- The view pager positions to make sticky. Insert multiple values as comma separated list (e.g. 3,5,6). -->
+        <attr name="stickyPositions" format="string" />
+        <!-- The with of the margin from the left and right edge of the view pager that allows input for swiping. Default is 40dip -->
+        <attr name="swipeMarginWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>

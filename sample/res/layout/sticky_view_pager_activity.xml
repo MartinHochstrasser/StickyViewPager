@@ -1,0 +1,21 @@
+<ch.bretscherhochstrasser.android.stickyviewpager.StickyViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:stickyviewpager="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    stickyviewpager:stickyPositions="1"
+    stickyviewpager:swipeMarginWidth="50dp"
+    tools:context=".AbstractViewPagerActivity" >
+
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#33b5e5"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="#fff" />
+
+</ch.bretscherhochstrasser.android.stickyviewpager.StickyViewPager>

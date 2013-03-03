@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StickyViewPager Sample</string>
+    <string name="classicViewPagerActivityTitle">Classic View Pager</string>
+    <string name="stickyViewPagerActivityTitle">Sticky View Pager</string>
+    <string name="simpleFragmentTitle">Simple Fragment</string>
+    <string name="simpleFragmentTextFormat">Position %d</string>
+    <string name="touchInputFragmentTitle">Touch Input Fragment</string>
+    <string name="touchInputFragmentText">"Sticky fragment with touch input for content scrolling (e.g. map fragment) "</string>
+
+</resources>
