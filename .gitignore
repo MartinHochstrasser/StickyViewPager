@@ -1,8 +1,15 @@
-# Android generated
-bin/
-gen/
+# Gradle
+.gradle
 
-# Eclipse
-.settings
-.classpath
-.project
+# Android Studio
+*.iml
+/.idea
+/captures
+
+# Android build
+/local.properties
+/build
+**/build
+
+# Mac
+.DS_Store
