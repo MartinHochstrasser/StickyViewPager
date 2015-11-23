@@ -16,9 +16,13 @@ View positions that are not declared "sticky" will still be handled by ViewPager
 
 ### 1. Add StickyViewPager to your project:
 
-Download the source and add the project in the _library_ directory as an Android library project.
+Download/clone this project and build the _library_ module with Android Studio.
 
-### 2. Use the StickyViewPager in your XML layout.
+Then import the generated *sticky-view-pager-<version>-release.aar* library into your project: Add a new module to your project, choose "Import .JAR/.AAR Package" and select the library aar.
+
+*Note:* StickyViewPager needs at least revision 22.2.0 of the [android v4 support library](http://developer.android.com/tools/support-library/features.html#v4) in your project dependencies.
+
+### 2. Use the StickyViewPager in your XML layout:
 
 Example:
 ```xml
@@ -53,7 +57,7 @@ The value is optional. The default is 40dip.
 
 
 ## Sample Project
-You can find a sample project demonstrating the StickyViewPager under the _sample_ directory.
+You can find a sample project demonstrating the StickyViewPager in the _sample_ module.
 
 
 ## License
