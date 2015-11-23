@@ -8,12 +8,21 @@ android {
         minSdkVersion 8
         targetSdkVersion 23
         versionCode 1
+        versionName "1.0.0"
     }
     buildTypes {
         release {
             minifyEnabled false
         }
     }
+    libraryVariants.all { variant ->
+        variant.outputs.each { output ->
+            def file = output.outputFile
+            def name = file.name.replace("library", "sticky-view-pager-${defaultConfig.versionName}")
+            output.outputFile = new File(file.parent, name)
+        }
+    }
+
 }
 
 dependencies {
